@@ -1,5 +1,30 @@
 /* RESPOSTA AQUI 👇 */
 
+var _valorA = 0
+var _valorB = 0
+var _valorC = 0
+var nomeTriangulo = 0
+_valorA > _valorB
+_valorA > _valorC
+
+
+if(A >= B + C) {
+    nomeTriangulo = "Não Existe o triângulo"
+} 
+    
+if(A^2 == B^2 + C^2) {
+    nomeTriangulo = "É um triânulo retângulo"
+}
+    
+if(A^2 > B^2 + C^2) {
+    nomeTriangulo = "É formado um triânulo obtusângulo"
+}
+    
+if(A^2 < B^2 + C^2) {
+    nomeTriangulo = "Formando um acutângulo"
+} 
+
+return nomeTriangulo
 
 /* Questão 01 
 Faça uma código que recebe três lados de um triângulo(a,b,c) e retorne o tipo de triângulo
