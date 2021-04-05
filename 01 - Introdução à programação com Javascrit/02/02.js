@@ -7,6 +7,9 @@ var nomeTriangulo = 0
 _valorA > _valorB
 _valorA > _valorC
 
+if( A, B, C <0) {
+    nomeTriangulo = "Erro! Somente informar valores positivos"
+}
 
 if(A >= B + C) {
     nomeTriangulo = "Não Existe o triângulo"
