@@ -47,6 +47,36 @@ function calculaMédia() {
 
 
 
+var _salario = 0.0
+_taxa1 == 15%
+_taxa2 == 12%
+_taxa3 == 10%
+_taxa4 == 7%
+_taxa5 == 4%
+_taxa6 == 0%
+
+if(_salario <=400){
+    _salario*_taxa1
+}
+if(_salario >= 400,01 AND <=700) {
+    _salario*_taxa2
+}
+if(_salario >=700,01 AND <=1000){
+    _salario*_taxa3
+}
+if(_salario >=1000,01 AND <=2000){
+    _salario*_taxa4
+}
+if(_salario >=2000,01 AND <=3500){
+    _salario*_taxa5
+}
+if(_salario >=3500,01){
+    _salario*_taxa6
+}
+
+return _salario
+
+
 
 /* Questão 02
 
